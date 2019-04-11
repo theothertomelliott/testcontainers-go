@@ -12,7 +12,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 
 	"github.com/docker/go-connections/nat"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/theothertomelliott/testcontainers-go/wait"
 )
 
 func TestContainerReturnItsContainerID(t *testing.T) {

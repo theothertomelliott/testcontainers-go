@@ -5,7 +5,7 @@ import (
 
 	"github.com/docker/go-connections/nat"
 	"github.com/pkg/errors"
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/theothertomelliott/testcontainers-go/wait"
 )
 
 var _ DeprecatedContainer = (*DockerContainer)(nil)

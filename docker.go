@@ -19,7 +19,7 @@ import (
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 
-	"github.com/testcontainers/testcontainers-go/wait"
+	"github.com/theothertomelliott/testcontainers-go/wait"
 )
 
 // Implement interfaces
