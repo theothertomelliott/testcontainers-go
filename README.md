@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"testing"
 
-	testcontainers "github.com/testcontainers/testcontainers-go"
+	testcontainers "github.com/theothertomelliott/testcontainers-go"
 )
 
 func TestNginxLatestReturn(t *testing.T) {
